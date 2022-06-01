@@ -2,7 +2,7 @@ import SideBar from "./SideBar";
 
 function App() {
   return (
-    <div>
+    <div className="relative h-screen">
       <SideBar />
     </div>
   );

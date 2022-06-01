@@ -16,6 +16,7 @@ module.exports = {
       },
       height: {
         sideBar: "var(--sideBar)",
+        large: "100vh",
       },
     },
   },
