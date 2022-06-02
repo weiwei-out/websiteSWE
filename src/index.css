@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 :root {
   --sideBar: 7vh;
+}
+
+* {
+  font-family: Open Sans Light;
 }

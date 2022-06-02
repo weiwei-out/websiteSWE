@@ -1,9 +1,14 @@
-import SideBar from "./SideBar";
+import NavBar from "./Components/NavBar";
+import SideBar from "./Components/SideBar";
+import Home from "./Components/Home";
 
 function App() {
   return (
-    <div className="relative h-screen">
+    <div className="relative">
+      <NavBar />
       <SideBar />
+      <Home />
+      <Home />
     </div>
   );
 }

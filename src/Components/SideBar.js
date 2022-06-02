@@ -1,12 +1,11 @@
-import React from "react";
-import { ReactComponent as LinkedIn } from "./Assets/logo_linkedin.svg";
-import { ReactComponent as GitHub } from "./Assets/logo_github.svg";
-import { ReactComponent as Email } from "./Assets/logo_email.svg";
-import { ReactComponent as Resume } from "./Assets/logo_resume.svg";
+import { ReactComponent as LinkedIn } from "../Assets/logo_linkedin.svg";
+import { ReactComponent as GitHub } from "../Assets/logo_github.svg";
+import { ReactComponent as Email } from "../Assets/logo_email.svg";
+import { ReactComponent as Resume } from "../Assets/logo_resume.svg";
 
 const SideBar = () => {
   return (
-    <div className="fixed mt-[36vh]">
+    <div className="fixed mt-[36vh] z-10">
       <div className="bg-red1 w-sideBar h-sideBar rounded-tr-2xl grid place-items-center">
         <LinkedIn
           onClick={() => window.open("https://www.linkedin.com/in/andrewwei1")}

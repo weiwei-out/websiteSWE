@@ -13,10 +13,17 @@ module.exports = {
       },
       width: {
         sideBar: "var(--sideBar)",
+        full: "100vw",
+      },
+      maxWidth: {
+        threeXL: "1920px",
       },
       height: {
         sideBar: "var(--sideBar)",
-        large: "100vh",
+        full: "100vh",
+      },
+      margin: {
+        navBar: "8vw",
       },
     },
   },
